@@ -1,0 +1,161 @@
+header{
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-left: 0px;
+}
+body{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap column;
+  font-family: Arial;
+  width: 100%;
+  margin-left: 0px;
+}
+#footer{
+  background-color: #F2F2F2;
+  display: inline-block;
+  min-width: 98vw;
+}
+#firstfooter{
+  order: 1;
+  color: #7D7D7D;
+  padding-left: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+#secondfooter{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  order: 2;
+}
+#secondfooter a {
+  color: #666a6e;
+  text-decoration: none;
+  font-size: 14px;
+}
+#secondfooter a:hover{
+  text-decoration: underline;
+}
+.logogoogle{
+  width: 20%;
+  padding-bottom: 20px;
+}
+.logoloupe{
+  width: 1%;
+  display: inline-flex;
+  order: -1;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logovocal{
+  width: 2%;
+}
+#site-search{
+  width: 40vw;
+  height: 45px;
+  border-radius: 50px / 50px;
+  border: 1px solid lightgrey;
+  background-image: url("loupe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+.connexion{
+  background-color: #4685f3;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  width: 90px;
+  height: 30px;
+  font-size: 13px;
+}
+.connexion a{
+  color: white;
+  text-decoration: none;
+}
+#page {
+	min-height:100vh;
+  min-width: 100vw;
+	display:flex;
+	flex-direction:column;
+}
+
+#content {
+  display: flex;
+	flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap column;
+  margin-top: 0px;
+}
+#header{
+  display: inline-flex;
+  align-self: flex-end;
+}
+#header a{
+  display: inline;
+  padding-left: 15px;
+  color: #272727;
+  font-size: 13px;
+  text-decoration: none;
+}
+#header a:hover{
+  text-decoration: underline;
+}
+#connexionbutton a{
+  text-align: center;
+  color: white;
+  padding-left: 0px;
+}
+#connexionbutton a:hover{
+  text-decoration: none;
+}
+#footer a{
+  padding-right: 20px;
+}
+#partone{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-start;
+  margin-left: 30px;
+  padding: 15px;
+}
+#parttwo{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+#boutonsrecherche{
+  display: flex;
+  flex-direction: row;
+}
+.recherche:hover{
+  border: 1px solid grey;
+  color: #272727;
+  box-shadow: 1px 1px 1px #F2F2F2;
+
+}
+.chance:hover{
+  border: 1px solid grey;
+  color: #272727;
+}
+.recherche{
+  margin-right: 10px;
+  background-color: #F6F6F6;
+  font-size: 14px;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: grey;
+}
+.chance{
+  background-color: #F6F6F6;
+  font-size: 14px;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: grey;
+}

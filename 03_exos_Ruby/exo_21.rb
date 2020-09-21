@@ -14,7 +14,7 @@ print "> "
 	l = l*2
 	test = (" " * l)
 	test1 = ("# " * i)
-	puts "#{test} #{test1}"
+	puts "#{test}#{test1}"
 	i=i+1
 	end
 

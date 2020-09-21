@@ -1,17 +1,22 @@
-# Its_a_me_Mario
+# Une série d'exercices en Ruby
+21 exercices en Ruby.
+pour exécuter les exercices, suis la méthodes décrite si dessous : 
+ - clone ce repo.
+ - dans ton terminal, déplace toi dans le dossier local du repo.
+ - puis exécute les exercices avec la commande : Ruby nom_du_fichier.
+
 
 Exercice 1
-Créé un programme exo_01.rb qui affiche:
+Créé un programme qui affiche :
 "Bonjour, monde !".
 
 Exercice 2
-Créé un programme exo_02.rb qui affiche:
+Créé un programme qui affiche:
 "Bonjour, monde !"
 "Et avec une voix sexy, ça donne : Bonjour, monde !"
-
-Peux-tu dire quel est la différence entre print et puts ?
-puts: affiche le text normalement.
-print: affiche le texte de la ligne suivante sur la meme ligne.
+      Peux-tu dire quel est la différence entre print et puts ?
+            print: affiche le texte de la ligne suivante sur la meme ligne.
+            puts: affiche le text normalement.(en allant à la ligne a chaque "puts")
 
 Exercice 3
 Reprends l'exo 2, écris un programme exo_03.rb mais avec # devant la ligne 2.

@@ -1,3 +1,3 @@
 puts "pour continuer merci de saisir votre prenom"
 user_name = gets.chomp
-puts "Bonjour," + user_name + "!"
+puts "Bonjour, " +user_name+ "!"

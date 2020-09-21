@@ -7,8 +7,6 @@ compteur = 0
 age = age_now-compteur
 
 
-
-
 while (compteur <= age_now)
 	
 	if compteur == age 

@@ -6,7 +6,9 @@ puts "En minutes ça fait : #{10 * 5 * 11 * 60}"
 
 print "Et en secondes ? "
 
-puts 10 * 5 * 11 * 60 * 60 + "sec"
+puts "#{10 * 5 * 11 * 60 * 60} sec"
+
+puts ""
 
 puts  "c'est drole de compter le temps de travail, mais peux tu répondre bon a ses questions ?"
 

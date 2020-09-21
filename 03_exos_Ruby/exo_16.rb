@@ -1,4 +1,4 @@
-puts "quel age a tu"
+puts "Quel age a tu ?"
 age_now = gets.chomp.to_i
 
 compteur = 0

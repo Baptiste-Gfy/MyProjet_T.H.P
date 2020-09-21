@@ -1,4 +1,4 @@
-puts " peux tu ecrire un nombre s'il te plait"
+puts "A partir de quel nombre veux tu que je fasse un compte à rebours"
 nombre = gets.chomp.to_i
 
 compteur = nombre

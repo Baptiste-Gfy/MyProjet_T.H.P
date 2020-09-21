@@ -1,6 +1,6 @@
-puts " donne moi un nombre entre 1 et 25 s'il te plais"
+puts " Donne moi un nombre entre 1 et 25 s'il te plais"
 etage = gets.chomp.to_i
-puts "voici ta pyramide :"
+puts "Voici ta pyramide :"
 ligne = etage  
 colone = 1  
 while colone <= ligne 
